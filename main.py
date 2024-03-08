@@ -85,6 +85,3 @@ def main():
             print("Fetched Time: ", datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
             print("Number of links: ", str(len(soup.find_all("a"))))
             print("Number of images: ", str(len(soup.find_all("img"))))
-
-if __name__ == "__main__":
-    main()
